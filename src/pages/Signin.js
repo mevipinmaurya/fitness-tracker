@@ -112,7 +112,7 @@ function Signin() {
           fullWidth
         />
       </form>
-      <Divider text="or" />
+      {/* <Divider text="or" />
       <Button
         value="Sign in with Google"
         type="submit"
@@ -120,7 +120,7 @@ function Signin() {
         action={handleGoogleSignIn}
         loading={googleLoading}
         fullWidth
-      />
+      /> */}
       <div className="text-primary text-center">
         Want to become a member? <Link to="/sign-up">Sign Up</Link>
       </div>
